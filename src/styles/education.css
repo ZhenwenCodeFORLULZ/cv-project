@@ -1,0 +1,39 @@
+.TitleCard{
+    text-align:center;
+    font-size:40px;
+    padding-bottom:2.5%;
+    color:white;
+    
+}
+.levelbox{
+    font-size:17.5px;
+    color:black;
+}
+
+#submittedEduInfo{
+    background-color: rgb(197, 197, 212);
+    font-size:25px;
+}
+input{
+    width:75%;
+}
+.education_submitted{
+    font-size:20px;
+    text-align: right;
+    margin-right:6.25%;
+
+}
+
+.EducationButton{
+ transition-duration:0.4;
+ background-color: white; 
+ color: black; 
+ border: 2px solid #008CBA;
+ font-size: 16px;
+ text-align:center;
+ padding: 8px 16px;
+}
+.EducationButton:hover{
+  background-color: #008CBA;
+  color: white;
+}

@@ -1,0 +1,17 @@
+{
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    "editor.acceptSuggestionOnEnter": "off",
+    "editor.snippetSuggestions": "none",
+    "editor.suggest.showClasses": false,
+    "editor.suggest.showConstants": false,
+    "editor.suggest.showConstructors": false,
+    "editor.suggest.showEnumMembers": false,
+    "editor.suggest.showCustomcolors": false,
+    "editor.suggest.showColors": false,
+    "editor.suggest.showEvents": false,
+    "editor.suggest.showEnums": false,
+    "editor.suggest.showFiles": false,
+    "editor.suggest.showFields": false,
+    "editor.suggest.showFunctions": false,
+    "editor.suggest.showInlineDetails": false
+}

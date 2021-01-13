@@ -1,25 +1,40 @@
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import {Component} from "react";
+import Info from "./Components/Info";
+import Job from "./Components/Job";
+import Education from "./Components/Education"
+import  "./styles/mainPage.css";
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+class App extends Component
+{
+  constructor(){
+    super();
+  }
+  render(){
+  return(
+  <div class = "whole">
+  <div class = "main">
+    
+    <div class = "head">
+    <section class = "title">
+      Create your own CV APP
+    </section>
     </div>
+    <div class = "body">
+    <div class= "Info">
+      <Info/>
+    </div>  
+    <div class = "education">
+        <Education/>
+    </div>
+    <div class = "job">
+      <Job/>
+    </div>
+    </div>
+    </div>
+    </div>
+    
   );
+ }
 }
-
 export default App;
